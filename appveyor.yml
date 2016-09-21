@@ -8,6 +8,7 @@ environment:
 
 install:
     - ps: start-filedownload "https://raw.githubusercontent.com/randy3k/UnitTesting/master/sbin/appveyor.ps1"
+    - ps: "Hello, World!"
     - ps: .\appveyor.ps1 "bootstrap" -verbose
     # install Package Control
     # - ps: .\appveyor.ps1 "install_package_control" -verbose
